@@ -67,3 +67,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+ul:has(a){
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
